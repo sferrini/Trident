@@ -18,6 +18,7 @@
 		43CDFA561DCFA16600046EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CDFA541DCFA16600046EB0 /* LaunchScreen.storyboard */; };
 		43CDFA5E1DCFA1DE00046EB0 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CDFA5D1DCFA1DE00046EB0 /* IOKit.framework */; };
 		43CDFA721DCFA34300046EB0 /* exploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CDFA711DCFA34300046EB0 /* exploit.c */; };
+		7B3018991E01D84A0034A209 /* target_iphone_4_1_ios_9_3_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B3018981E01D84A0034A209 /* target_iphone_4_1_ios_9_3_2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		43CDFA6A1DCFA26C00046EB0 /* IOTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOTypes.h; path = Headers/IOKit/IOTypes.h; sourceTree = "<group>"; };
 		43CDFA6B1DCFA26C00046EB0 /* OSMessageNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSMessageNotification.h; path = Headers/IOKit/OSMessageNotification.h; sourceTree = "<group>"; };
 		43CDFA711DCFA34300046EB0 /* exploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exploit.c; sourceTree = "<group>"; };
+		7B3018971E01D83A0034A209 /* target_iphone_4_1_ios_9_3_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = target_iphone_4_1_ios_9_3_2.h; sourceTree = "<group>"; };
+		7B3018981E01D84A0034A209 /* target_iphone_4_1_ios_9_3_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = target_iphone_4_1_ios_9_3_2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 				2880F31F1E015A540045C840 /* target_ipad_3_1_ios_9_3_4.c */,
 				2880F31D1E015A1A0045C840 /* target_iphone_5_2_ios_9_2_1.h */,
 				2880F31C1E015A1A0045C840 /* target_iphone_5_2_ios_9_2_1.c */,
+				7B3018971E01D83A0034A209 /* target_iphone_4_1_ios_9_3_2.h */,
+				7B3018981E01D84A0034A209 /* target_iphone_4_1_ios_9_3_2.c */,
 			);
 			name = targets;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 				43CDFA481DCFA16600046EB0 /* main.m in Sources */,
 				43CDFA721DCFA34300046EB0 /* exploit.c in Sources */,
 				2880F31B1E014AC80045C840 /* target.m in Sources */,
+				7B3018991E01D84A0034A209 /* target_iphone_4_1_ios_9_3_2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
