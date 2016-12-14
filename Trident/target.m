@@ -13,6 +13,7 @@
 
 #include "target_ipad_3_1_ios_9_3_4.h"
 #include "target_iphone_5_2_ios_9_2_1.h"
+#include "target_iphone_4_1_ios_9_3_2.h"
 
 uint8_t *t_clock_ops_overwrite;
 uint8_t t_clock_ops_overwrite_size;
@@ -49,6 +50,8 @@ boolean_t target_select(void)
         target_ipad_3_1_ios_9_3_4_init(&target);
     } else if ([info isEqualToString:TARGET_IPHONE_5_2_IOS_9_2_1]) {
         target_iphone_5_2_ios_9_2_1_init(&target);
+    }else if ([info isEqualToString:TARGET_IPHONE_4_1_IOS_9_2_1]) {
+        target_iphone_4_1_ios_9_3_2_init(&target);
     } else {
         // unsupported device
         return false;
